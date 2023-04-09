@@ -1,4 +1,10 @@
-const { capitalize, reverseString, calculator, caesarCipher, analyzeArray } = require('./index');
+const {
+    capitalize,
+    reverseString,
+    calculator,
+    caesarCipher,
+    analyzeArray,
+} = require('../src/index');
 
 test('capitalizes one letter inputs', () => {
     expect(capitalize('a')).toBe('A');
